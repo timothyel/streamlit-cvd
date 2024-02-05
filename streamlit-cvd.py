@@ -14,11 +14,11 @@ st.title('Cardiovascular Disease Prediction')
 feature_list = dict()
 
 # Add input widgets for user input
-feature_list['gender'] = st.selectbox(label='Gender', options=['Female', 'Male'])
+feature_list['gender'] = st.selectbox(label='Gender', options=['Select','Male', 'Female'])
 feature_list['age'] = st.number_input('Enter Age:', format='%.0f')
 feature_list['weight'] = st.number_input('Enter weight (kg):', format='%.0f')
 feature_list['height'] = st.number_input('Enter height (cm):', format='%.0f')
-feature_list['active'] = st.selectbox(label='Physical Activity (Active: routine weekly exercise)', options=['Active', 'Normal'])
+feature_list['active'] = st.selectbox(label='Physical Activity (Active: routine weekly exercise)', options=['Select','Active', 'Normal'])
 feature_list['alco'] = st.selectbox(label='Consume Alcohol', options=['Yes', 'No'])
 feature_list['smoke'] = st.selectbox(label='Smoking', options=['Yes', 'No'])
 feature_list['gluc'] = st.number_input('Enter Blood Glucose Level:', format='%.0f')
