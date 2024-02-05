@@ -25,6 +25,7 @@ feature_list['gluc'] = st.number_input('Enter Blood Glucose Level:', format='%.0
 feature_list['cholesterol'] = st.number_input('Enter Cholesterol Level:', format='%.0f')
 feature_list['systolic'] = st.number_input('Enter Systolic Blood Pressure:', format='%.0f')
 feature_list['diastolic'] = st.number_input('Enter Diastolic Blood Pressure:', format='%.0f')
+st.subheader("© 2024 Data Geeks")
 
 column = ['gluc', 'diastolic', 'systolic', 'alco', 'height', 'weight', 'active', 'gender', 'smoke', 'cholesterol', 'age']
 
