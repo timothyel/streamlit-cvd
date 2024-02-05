@@ -5,8 +5,8 @@ from helper import preprocess
 import pickle
 
 # Load the model
-model = pickle.load(open('D:\project\DigitalSkola\FP\saved_models\decision_tree.sav','rb'))
-scaler = pickle.load(open('D:\project\DigitalSkola\FP\saved_models\standard_scaler.sav', 'rb'))
+model = pickle.load(open('saved_model/decision_tree.sav', 'rb'))
+scaler = pickle.load(open('saved_model/standard_scaler.sav', 'rb'))
 
 # Define the Streamlit app
 st.title('Cardiovascular Disease Prediction')
