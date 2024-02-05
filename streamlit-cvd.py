@@ -72,4 +72,4 @@ if st.button('Predict'):
 
     st.markdown(f'<p style="background-color:{color}; color:black; padding:10px; border-radius:5px;">Risk Prediction: {prob[0]:.2f} % ({text}) {text2} </p>', unsafe_allow_html=True)
     
-st.markdown("<small>&copy; 2024 Data Geeks. All rights reserved.</small>", unsafe_allow_html=True)
+st.markdown("<div style='text-align: right; font-size: small;'>&copy; 2024 Data Geeks. All rights reserved.</div>", unsafe_allow_html=True)
