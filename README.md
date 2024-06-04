@@ -1,2 +1,2 @@
 # streamlit-cvd
-cvd prediction
+Cardiovascular Disease prediction
